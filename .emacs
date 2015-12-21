@@ -41,7 +41,8 @@
 (show-paren-mode 1)
 (line-number-mode 1)
 (display-time-mode 0)
-(menu-bar-mode 1)
+(scroll-bar-mode nil)
+(tool-bar-mode -1)
 (setq fci-rule-width 1)
 (setq fci-rule-color "brightblack")
 (load-theme 'badwolf t)
@@ -73,7 +74,7 @@
 (set-face-attribute  'mode-line
                  nil
                  :foreground "gray80"
-                 :background "color-197"
+                 :background "#FF2C4B"
                  :box '(:line-width 1 :style released-button))
 (set-face-attribute  'mode-line-inactive
                  nil
