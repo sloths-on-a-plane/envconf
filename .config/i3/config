@@ -10,9 +10,6 @@
 # Please see http://i3wm.org/docs/userguide.html for a complete reference!
 
 # Lock screen
-#exec --no-startup-id xautolock -time 5 -locker i3lock &
-#exec xautolock -detectsleep -time 3 -locker "i3lock -d -c 000070" \
-# -notify 30  -notifier "notify-send -u critical -t 10000 -- 'LOCKING screen in 30 seconds'"
 bindsym $mod+Shift+Delete exec --no-startup-id i3lock
 
 set $mod Mod4
