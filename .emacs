@@ -44,7 +44,7 @@
 (scroll-bar-mode nil)
 (tool-bar-mode -1)
 (setq fci-rule-width 1)
-(setq fci-rule-color "brightblack")
+(setq fci-rule-color "#696969")
 (load-theme 'badwolf t)
 (helm-mode 1)
 (projectile-global-mode)
