@@ -1,5 +1,0 @@
-xrandr --dpi 125x125
-xrandr --output eDP1 --primary
-xscreensaver -no-splash &
-xss-lock -- xscreensaver-command -lock &
-screencloud &
